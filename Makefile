@@ -1,7 +1,6 @@
 up:
 	kind create cluster --config kind/cluster.yaml
-	# kubectl apply -f ingress-nginx
-	# kubectl apply -f platform/
+	kubectl apply -f platform/namespaces/
 
 down:
 	kind delete cluster --name devops-lab
