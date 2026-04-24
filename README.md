@@ -129,6 +129,10 @@ An nginx-based ingress controller providing:
 - path-based routing
 - TLS termination
 
+**NOTE:** The nginx ingress configuration is vendor in from:
+
+`https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.15.1/deploy/static/provider/cloud/deploy.yaml`
+
 ### DNS Layer (Critical Dependency)
 
 Local DNS resolution is a core platform requirement.
